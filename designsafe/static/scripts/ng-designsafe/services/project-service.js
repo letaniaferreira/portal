@@ -1,4 +1,4 @@
-(function(window, angular, _, undefined) {
+export const projectService = function(window, angular, _, undefined) {
   "use strict";
 
   var mod = angular.module('designsafe');
@@ -1354,4 +1354,4 @@
     return service;
 
   }]);
-})(window, angular, _);
+}
